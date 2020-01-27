@@ -1,0 +1,5 @@
+#ifndef DISABLECONSOLE
+#define DISABLECONSOLE
+
+
+#endif

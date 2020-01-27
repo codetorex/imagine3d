@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Imagine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSPE5C.tmp" with contents
+[
+fmodvc.lib OpenGL32.lib GLu32.Lib GLaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Imagine.pdb" /debug /machine:I386 /out:"Debug/Imagine.exe" /pdbtype:sept 
+".\Debug\CDPMain.obj"
+".\Debug\OSGui.obj"
+".\Debug\ACSMain.obj"
+".\Debug\CMatrix4x4f.obj"
+".\Debug\CVector3f.obj"
+".\Debug\CEntity.obj"
+".\Debug\CPhysics.obj"
+".\Debug\CBillboard.obj"
+".\Debug\CCamera.obj"
+".\Debug\CTexture.obj"
+".\Debug\CVision.obj"
+".\Debug\gui.obj"
+".\Debug\psprite.obj"
+".\Debug\CModel.obj"
+".\Debug\MDLModel.obj"
+".\Debug\b_c24b.obj"
+".\Debug\b_cellular.obj"
+".\Debug\b_draw.obj"
+".\Debug\b_file.obj"
+".\Debug\b_func.obj"
+".\Debug\b_matrix.obj"
+".\Debug\b_plasma.obj"
+".\Debug\b_pnoise.obj"
+".\Debug\b_simple.obj"
+".\Debug\obj_sphere.obj"
+".\Debug\obj_terrain.obj"
+".\Debug\m_light.obj"
+".\Debug\m_normal.obj"
+".\Debug\m_tangent.obj"
+".\Debug\m_uvwmap.obj"
+".\Debug\resmem.obj"
+".\Debug\texfile.obj"
+".\Debug\Tools.obj"
+".\Debug\CMusic.obj"
+".\Debug\bumptex.obj"
+".\Debug\parallax.obj"
+".\Debug\GL_ARB_multitexture.obj"
+".\Debug\GL_ARB_vertex_program.obj"
+".\Debug\myres.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSPE5C.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Imagine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

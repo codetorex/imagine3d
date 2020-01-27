@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Exporter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1D5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXPORTER_EXPORTS" /FR"Release/" /Fp"Release/Exporter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\Imagine 3D\code\expim7\tangentspace.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1D5.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1D6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib core.lib maxutil.lib bmm.lib geom.lib mesh.lib tessint.lib paramblk2.lib comctl32.lib /nologo /dll /incremental:no /pdb:"Release/im3exp.pdb" /machine:I386 /def:".\exporter.def" /out:"Release/im3exp.dle" /implib:"Release/im3exp.lib" /libpath:"..\lib" 
+".\Release\tools.obj"
+".\Release\exp_camera.obj"
+".\Release\exp_entity.obj"
+".\Release\exp_im3write.obj"
+".\Release\exp_light.obj"
+".\Release\exp_mesh.obj"
+".\Release\exp_physique.obj"
+".\Release\exp_scene.obj"
+".\Release\exp_texture.obj"
+".\Release\exp_keyframe.obj"
+".\Release\exp_bone.obj"
+".\Release\exp_imbwrite.obj"
+".\Release\tangentspace.obj"
+".\Release\vertexlight.obj"
+".\Release\vertexshadow.obj"
+".\Release\Exporter.obj"
+".\Release\dllentry.obj"
+".\Release\StdAfx.obj"
+".\Release\exporter.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1D6.tmp"
+<h3>Output Window</h3>
+Compiling...
+tangentspace.cpp
+Linking...
+   Creating library Release/im3exp.lib and object Release/im3exp.exp
+im3exp.exp : warning LNK4070: /OUT:myexporter.dle directive in .EXP differs from output filename "Release/im3exp.dle"; ignoring directive
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1DA.tmp" with contents
+[
+/nologo /o"Release/Exporter.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\tools.sbr"
+".\Release\exp_camera.sbr"
+".\Release\exp_entity.sbr"
+".\Release\exp_im3write.sbr"
+".\Release\exp_light.sbr"
+".\Release\exp_mesh.sbr"
+".\Release\exp_physique.sbr"
+".\Release\exp_scene.sbr"
+".\Release\exp_texture.sbr"
+".\Release\exp_keyframe.sbr"
+".\Release\exp_bone.sbr"
+".\Release\exp_imbwrite.sbr"
+".\Release\tangentspace.sbr"
+".\Release\vertexlight.sbr"
+".\Release\vertexshadow.sbr"
+".\Release\Exporter.sbr"
+".\Release\dllentry.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP1DA.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+im3exp.dle - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

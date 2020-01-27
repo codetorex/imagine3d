@@ -1,0 +1,248 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 186, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MyExporter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,53,50,14
+    CTEXT           "IM3 Exporter\nCopyright © 2005 \n\nInativa Corp, Burak575",
+                    IDC_STATIC,7,7,172,44,0,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,5,0,0
+ PRODUCTVERSION 0,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041f04b0"
+        BEGIN
+            VALUE "Comments", "Imagine 3D Exporter\0"
+            VALUE "CompanyName", "Inativa Corp.\0"
+            VALUE "FileDescription", "IM3 Exporter\0"
+            VALUE "FileVersion", "0, 5, 0, 0\0"
+            VALUE "InternalName", "IM3Exporter\0"
+            VALUE "LegalCopyright", "Copyright © 2005, Inativa Corp,Burak575\0"
+            VALUE "LegalTrademarks", "burak575\0"
+            VALUE "OriginalFilename", "im3exp.dle\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Discreet - a division of Autodesk, Inc. im3exp\0"
+            VALUE "ProductVersion", "0, 5, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x41f, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIBDESC             "Imagine 3D Engine Export, developer by Inativa Corp, burak575, burak575@hotmail.com"
+    IDS_CLASSNAME           "Imagine3D"
+    IDS_SHORTDESC           "Imagine 3D Heap"
+    IDS_LONGDESC            "Imagine 3D IM3, v0.5, 3D Studio Max R7.0"
+    IDS_AUTHOR              "burak575"
+    IDS_COPYRIGHT           "Copyright © 2005, Inativa Corp, Burak575"
+    IDS_OTHER1              " "
+    IDS_OTHER2              "Heap File"
+    IDS_EXPCAPTION          "IM3 Exporter"
+    IDS_OPENFILEERR         "Cannot open file: %s"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Turkish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+#ifdef _WIN32
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IM3 DIALOG DISCARDABLE  0, 0, 186, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IM3 Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,122,50,14
+    PUSHBUTTON      "Close",IDCANCEL,129,122,50,14
+    CONTROL         105,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,172,41
+    CONTROL         "Calculate Vertex Lights",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,86,101,9
+    CONTROL         "Calculate Shadows",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,97,101,9
+    CONTROL         "Base Scene",IDC_SCENE,"Button",BS_AUTORADIOBUTTON,7,50,
+                    140,10
+    CONTROL         "Skeletal Animation",IDC_SKELETON,"Button",
+                    BS_AUTORADIOBUTTON,7,59,130,10
+    CONTROL         "Keyframe Animation",IDC_KEY,"Button",BS_AUTORADIOBUTTON,
+                    7,69,151,10
+    CONTROL         "Calculate Tangent Space",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,108,101,9
+END
+
+IDD_DEBUG DIALOG DISCARDABLE  0, 0, 280, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IM3 Exporter Debug"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,223,114,50,14
+    LISTBOX         IDC_LIST1,7,7,266,103,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_IM3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_DEBUG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "logo.bmp"
+#endif    // Turkish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
